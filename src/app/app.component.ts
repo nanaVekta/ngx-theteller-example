@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class AppComponent {
   title = 'ngx-theteller-example';
-
+  // declaring options starts here
   apiKey = environment.THE_TELLER_API_KEY; // API key. You will get this in your theteller account
   transactionId = Math.floor(100000000000 + Math.random() * 900000000000).toString(); // A unique 12 digit transaction id
   amount = 1; // amount to charge
